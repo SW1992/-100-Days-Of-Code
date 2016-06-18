@@ -2,7 +2,7 @@
 
 I'm taking part in this challenge,  i plan to upload some code everyday for the next 100 days.
 
-These will be small programs detailing my understanding of concepts i'm currently trying to learn.
+These will be small programs sharing my understanding of concepts i'm currently trying to learn, or reinforce.
 
 I will spend at least an hour on a day on this.
 
