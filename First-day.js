@@ -10,7 +10,7 @@ var application = angular.module("myApp",[]);
      $scope.prop = "someData";
      $scope.propTwo = "someMoreData";
    // set properties of $scope object
-   /* these are accessable in the view (HTML),
+   /* these are accessible in the view (HTML),
       aswell as in the controller. */
    });
 
