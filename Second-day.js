@@ -10,7 +10,7 @@ application.controller("control",function($timeout) {
 	},1000);
 });
 /* it's the Angular equivalent of the window.setTimeout function
-	 & will call a specified function after a given delay (ms) */
+& will call a specified function after a given delay (ms). */
 	
 /* note: the delay can sometimes be longer than the time specified, 
    performance can vary depending on $timeouts place in the queue */
