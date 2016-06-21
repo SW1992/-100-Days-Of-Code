@@ -14,6 +14,6 @@ application.controller("control",function($scope) {
 	// the result or value of these expressions can be returned, wherever we write an expression in HTML. 
 });
 /*  Their are two output methods for expressions , 
-    through a data-binding directive like this: ng-bind="expression". 
-		or with double curly braces like this: {{ expression }} */
+    through a data-binding directive like this: ng-bind="expression"
+    or with double curly braces like this: {{ expression }} */
 	
