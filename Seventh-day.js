@@ -16,7 +16,7 @@
 2 == "2" // true
 1 == 2 // false
 
-// & "!==" unstrict inequality comparisions 
+// & "!=" unstrict inequality comparisions 
 1 != 2 // true
 2 != "2" // false
 
