@@ -9,7 +9,7 @@ true && true // true
 false && true // false
 false && false // false
 
-// the logical OR ("||") Operator, evaluates to true, if either condtion is satisfied  (true)
+// the logical OR ("||") Operator, evaluates to true, if either condtion is satisfied (true)
 true || false // true
 false || true // true 
 false || false // false
@@ -20,6 +20,6 @@ false || false // false
 
 // The Ternary Operator can be thought of a shorthand for the condtional if statement, which i will cover next time, it takes a condtion & two values.
 // it can be used to assign one of these set of values to a variable, based upon the boolean outcome of the evaluated condition.
-var myName = name === "sam" ? "my name is sam": "Your not sam";
+var myName = name === "sam" ? "my name is sam": "you're not sam";
 console.log(myName); // my name is sam
  
