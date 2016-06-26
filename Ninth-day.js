@@ -10,13 +10,13 @@ var hoursInDay = new Date().getHours();
 var welcome;
 // we will set our welcome variable, depending on the outcome of the conditional statement.
 if (hoursInDay < 12) {
-	// the if statement runs it's block of code, if the specified condition evaluates to true
+	// the if statement runs it's block of code, if the specified condition evaluates to true.
 	welcome = "Hello & Good Morning";
 	console.log(welcome);
 }
 else if (hoursInDay < 20) {
-	// the else if statement, is like an alternative truth statement
-	/* it runs it's block of code when the if condtion evaluates to false 
+	// the else if statement, is like an alternative truth statement.
+	/* It runs it's block of code when the if condtion evaluates to false 
 	but it's condtion evaluates to true. */
 	welcome = "Hello & Good Day";
 	console.log(welcome);
