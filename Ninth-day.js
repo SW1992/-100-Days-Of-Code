@@ -16,7 +16,7 @@ if (hoursInDay < 12) {
 }
 else if (hoursInDay < 20) {
 	// the else if statement, is like an alternative truth statement
-	/* it runs it's block of code when the first condtion evaluates to false 
+	/* it runs it's block of code when the if condtion evaluates to false 
 	but it's condtion evaluates to true. */
 	welcome = "Hello & Good Day";
 	console.log(welcome);
