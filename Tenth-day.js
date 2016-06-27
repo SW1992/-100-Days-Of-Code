@@ -7,23 +7,23 @@ var bestConsole = "Xbox One";
 // feel free to disagree! ;) 
 switch (bestConsole) {
 	case "PlayStation 4":
-		// if a match is found, the code block associated with the case statment will run.
-		// case statements are equivalent to the "if/ else if" of a condtional statement.
+	  // if a match is found, the code block associated with the case statment will run.
+    // case statements are equivalent to the "if/ else if" of a condtional statement.
 	  console.log("Ah, the PS4, great choice!.");
-		break;
-		// the break statement is used to break out of the switch (stop it executing) if a match is found.
+	  break;
+	  // the break statement is used to break out of the switch (stop it executing) if a match is found.
   case "Xbox One":
 	  console.log("The Xbox One, superb choice!.");
 	  break;
 	case "Nintendo Wii":
 	  console.log("Ah... an active gamer, i see. Nice.");
-		break;
+	  break;
 	case "Nintendo 3DS":
 	  console.log("Can't beat a good handheld!.");
-		break;
+	  break;
 	default:
-	// when no match is found, if a default statement is supplied, this will run.
-        // the default statement is equivalent to the "else" of a condtional statement.
+	  // when no match is found, if a default statement is supplied, this will run.
+    // the default statement is equivalent to the "else" of a condtional statement.
 	  console.log("That's no console i've ever heard of, but... cool!.");
 }
 // multi-case single code-block switch
