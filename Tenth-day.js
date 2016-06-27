@@ -1,7 +1,7 @@
 // Day Ten
 // Javascript Switch Statement
 // The switch statement can be thought of as a shorthand way to write condtional statements.
-/* The switch statement takes an ex	pression, this expression is then tested against each case statement value
+/* The switch statement takes an expression, this expression is then tested against each case statement value
 with strict comparision. */
 var bestConsole = "Xbox One"; 
 // feel free to disagree! ;) 
@@ -23,7 +23,7 @@ switch (bestConsole) {
 		break;
 	default:
 	// when no match is found, if a default statement is supplied, this will run.
-  // the default statement is equivalent to the "else" of a condtional statement.
+        // the default statement is equivalent to the "else" of a condtional statement.
 	  console.log("That's no console i've ever heard of, but... cool!.");
 }
 // multi-case single code-block switch
