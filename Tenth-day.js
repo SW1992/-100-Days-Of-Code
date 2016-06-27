@@ -37,7 +37,7 @@ switch (bestGameCompany) {
 	case "Activision":
 	case "Rockstar": 
 	case "LucasArts":
-  case "Capcom":
+  case "Capcom": 
 	case "Nintendo":
 	case "Valve":
 	case "Konami":
