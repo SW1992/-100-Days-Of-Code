@@ -16,11 +16,11 @@ for (var i = 0; i < 5; i++) {
 var x = 0; 
 // This statement is generally used to intialize the loops counter variable.
 
-// Statement 2, is the loop condtion statement, 
+// Statement 2, is the loop condtion statement.
 x < 5;
 // This is checked before each loop iteration & allows the loop to continue while it's expression is still true.
 
-// Statement 3, is the increment/decrement statement
+// Statement 3, is the increment/decrement statement.
 x++;
 // This occurs at the end of each loop iteration & is generally used to increase or decrease the value of the loops counter variable.
 // The loop condtion is evaluated again after this.
