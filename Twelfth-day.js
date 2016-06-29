@@ -34,6 +34,6 @@ do
 } while (z < 2);  
 
 // while & for loops are ultimately very similar 
-/* the main difference is that while loops have their initialization statement
- in their block "{}" & their increment/decrement statement outside of it, instead of in the parentheses of while. */
+/* the main difference is that while loops have their increment/decrement statement
+ in their block "{}" & their initialization statement outside of it, instead of in the parentheses of while. */
 
