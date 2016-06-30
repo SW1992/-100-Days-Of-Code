@@ -37,7 +37,7 @@ console.log(result);
 var regFour = /humans/; 
 var strFive = "humans exist, so this will be true";
 result = regFour.test(strFive); 
-// returns a boolean of true of false depending if it's found.
+// returns a boolean of true or false depending if it's found.
 console.log(result);
 // true
  
