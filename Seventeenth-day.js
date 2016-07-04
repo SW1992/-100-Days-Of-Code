@@ -42,7 +42,7 @@ console.log(Object.getOwnPropertyDescriptor(carThree,'brand'));
 // you can delete object properties with the delete keyword, providing that their not inherited properties or have their configurable attribute set to false
 delete carThree.colour;
 console.log(carThree.colour);
-// returns undefined, because the objects colour property has been deleted
+// logs undefined, because the objects colour property has been deleted
 
 
 
