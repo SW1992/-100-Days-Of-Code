@@ -9,7 +9,7 @@ var someActor = {
   profession: "Actor",
   logPersonDetail: function() {
     return this.name + " is " + this.age + ", and is an " + this.profession;
-    // in this case, this's value will be equal to the object the method;s defined on
+    // in this case, this's value will be equal to the object the method's defined on
     // since this will be object that is invoking the method 
     // when this is used in objects in general, it's value is that object
   }
@@ -42,7 +42,7 @@ var lastName = "Clooney";
 
 function logFullName () {
   return this.firstName + " " + this.lastName;
-  // equivalent to window.firstName & Window.lastName
+  // equivalent to window.firstName & window.lastName
 }
 console.log(logFullName());
 // George Clooney
