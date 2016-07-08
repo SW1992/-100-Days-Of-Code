@@ -13,7 +13,7 @@ function logHero() {
 }
 console.log(heroOne);
 // Superman
-// this is acessing the global heroOne variable
+// this is accessing the global heroOne variable
 logHero();
 // Batman
 // this is accessing the local heroOne variable
@@ -69,7 +69,7 @@ var alterEgo = "Clark Kent";
 {
   alterEgo = "Bruce Wayne";
   // this variable is in the global scope, because the curly braces have no scoping effect
-  // so we are simply changing the value of the exisisting alterEgo variable
+  // so we are simply changing the value of the existing alterEgo variable
   console.log(alterEgo);
   // Bruce Wayne
 }
