@@ -1,5 +1,5 @@
 // Day Twenty Two
-// Javascript Invocation 
+// Javascript function invocation 
 
 // functions can be invoked in a few different ways in JS
 // this, will have a different value depending on which you use
