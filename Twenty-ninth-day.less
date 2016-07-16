@@ -1,0 +1,24 @@
+// Declare Variable 
+@red: #ff3300;
+
+.para-one, .para-two {
+  color: @red;
+  // use variable set our first two paragraphs to a red colour
+}
+
+// Declare Mixin
+.mixin-paragraph-styling {
+  font-family: "Arial";
+  font-size: 20px;
+  color: #0000ff; 
+  // declarations to re-use, to set styling for the last two paragraphs
+}
+
+.para-three, .para-four {
+  .mixin-paragraph-styling;
+  // reference our mixin rule-set
+}
+
+
+
+
