@@ -1,0 +1,27 @@
+// Nesting example
+ul { li { a { &:visited { color: #009933; } &:hover { color: #000099 } } } }
+// sets link to green when visited, blue when hovered over
+
+// Operations example
+@padding: 10px;
+// declare padding variable 
+@purple: #660066;
+// declare colour variable
+
+.lorem-one { 
+  padding-left: @padding;
+  // add's 10px padding to left of element
+  color: @purple;
+}
+
+.lorem-two {
+  padding-left: (@padding * 2);
+  // set's it's padding-left, to two times the padding-left of the first element
+  color: @purple;
+}
+
+.lorem-three {
+  padding-left: (@padding * 3);
+  // set's it's padding-left, to three times the padding-left of the first element
+  color: @purple;
+}

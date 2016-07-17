@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title> LESS Nesting & Operations </title>
+    <link rel="stylesheet" type="text/css" href="Thirtieth-day.css">
+  </head>
+  <body>
+    <!-- Day Thirty -->
+    <h1> LESS Nesting & Operations </h1>
+    
+    <h3> LESS Nesting </h3>
+    <p> Nesting in LESS, is a way of reducing & simplyfing the syntax of CSS Combinators when accessing child elements,
+    down to a level that's more representative of their hierarchical form. </p>
+    <p> For instance, to access the an a, inside a li, inside a ul, and style it's when it's visited & when it's hovered over,
+    in normal CSS you'd have to write something like  </p> 
+    <p> <code> ul li a:visited {} ul li a:hover {} </code> </p>
+    <p> With high levels of nesting & different pseduo selectors, this could all become quite confusing to look at. </p>
+    <p> with LESS nesting you could access it like </p>
+    <p> <code> ul { li { a { &:visited { } } &hover: { } } } } </code> </p> 
+    
+    <h3> Nesting Output </h3>
+    <ul> 
+      <li> <a href="#"> Some Link </a> </li>
+    </ul>
+    
+    <h3> LESS Operations </h3>
+    <p> LESS Operations, are a way of performing mathematical operations with LESS Variables. </p>
+    <p> They have many uses, you could use it to set the padding-left of a group of elements relative to each other for example. </p>
+    <p> LESS Operations are generally performed within parentheses. </p>
+    
+    <h3> Operations Output </h3>
+    <p class="lorem-one"> Lorem ipsum dolor sit amet. </p>
+    <p class="lorem-two"> consectetur adipiscing elit. </p>
+    <p class="lorem-three"> Maecenas fringilla velit elit. </p> 
+  </body>
+</html>
