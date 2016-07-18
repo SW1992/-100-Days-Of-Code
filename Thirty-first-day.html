@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title> LESS Scope </title>
+  <link rel="stylesheet" type="text/css" href="Thirty-first-day.css">
+  </head>
+  <body> 
+    <!-- Day Thirty One -->
+    <h1> LESS Scope & Extend </h1>
+  
+    <h3> LESS Scope </h3> 
+    <p> The concept of scope in LESS, is similar to the concept of scope in programming languages broadly. </p>
+    <p> When you declare variables and use them in a nested structure, the complier will look for the variable in the local scope first. </p>
+    <p> If it isn't found locally, it will then look for a value in the elements parent scope, and continue up the scope chain until it either find's a definition for the variable, or doesn't. </p>
+   
+    <header>
+      <h3> Scope Output </h3>
+        <summary> 
+          <p> Lorem ipsum dolor sit amet. </p>  
+        </summary>    
+    </header>
+  
+    <h3> LESS Extend </h3>  
+    <p> You can use the extend concept in LESS to share properties from, one class or selector to the next. </p>
+    <p> It is essentially the same concept wise, as a mixin, but has slighty different syntax. </p>
+    <p> You use it with the syntax <code> &:extend(selector) </code> </p>
+  
+    <h3 class="extend-header"> Extend Output </h3>
+    <p class="extend-para"> Lorem ipsum dolor sit amet. </p> 
+  </body>
+</html>

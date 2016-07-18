@@ -1,0 +1,41 @@
+// Scope Example
+
+// declare globally scoped variable
+@var-color: #000000;
+// white
+// won't be accessed 
+
+header {
+  @var-color: #0000ff;
+  // locally scoped variable 
+  // blue 
+  h3 {
+    color: @var-color;
+    // looks for variable first in the local scope, doesn't find it
+    // so looks for variable in it's parent scope, find's it, so the h3 will be blue
+  }
+  summary {
+    p {
+     @var-color: #ff3300;
+     // red
+     color: @var-color;
+     // looks for the variable locally, find's it, so the p will be red
+    }
+  }
+}
+
+// declare class we are going to use to extend the properties of other selectors
+.font-styler {
+  font-family: "Arial";
+  font-weight: bold;  
+  color: #006600;
+}
+
+.extend-header, .extend-para {  
+  &:extend(.font-styler);  
+  // copies declaration statements of .font-styler, into here 
+}
+
+
+
+
