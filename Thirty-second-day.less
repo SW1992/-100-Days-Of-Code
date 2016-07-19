@@ -1,0 +1,16 @@
+h3.my-favourites { 
+  .style-list-header;
+  // mixin using imported rule-set
+} 
+
+.my-favourites li {
+  .style-list-items; 
+} 
+
+// reference import
+@import (reference) "Thirty-second-day-rulesets.less";
+// unlike normal CSS, we can place the import rule here & it's still valid
+// and because we used a reference import the code we imported won't be in the compiled output
+// unless we reference it with mixins or extend  
+
+
