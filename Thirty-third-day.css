@@ -1,0 +1,24 @@
+/* basic block, element, modifier explanation  */
+
+/* this is the block, it is the enclosing entity of block elements & modifiers. */
+.block { 
+  font-family: "Arial";
+  color: #00ccff;
+  /* block styles */    
+}  
+
+/* these are block elements, which are part of the makeup of the block as a whole,
+they derive meaning from the block they are enclosed in & have no standalone meaning. */
+.block_elem1 {  
+ 
+}
+.block_elem2 { 
+  
+}  
+
+/* this is the modifier, modifiers can be used to change individual elements or the block as a whole
+for example, you could use a modifier to change the appearance of specific elements or the behaviour of the entire block. */
+.block--mod {
+  font-weight: bold; 
+  /* make our quote bold */  
+}
