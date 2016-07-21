@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title> BEM common mistakes </title>
+  </head>
+  <body>
+    <!-- Day Thirty Four -->
+    <h1> BEM common mistakes </h1> 
+  
+    <h3> Common mistakes </h3>
+    <p> When using BEM it is a common mistake for developers to code something like... </p>
+    <!-- Bad --> 
+    <section class="someblock">
+      <ul class="someblock__elem" style="list-style-type: none">
+       <li class="someblock__elem__elem"> </li>
+      </ul>
+    </section>
+    <p> When you need to nest elements inside elements, with BEM, 
+    the correct thing to do is to use single nested elements, inside the block, or start a new block to nest that element in.
+   <!-- Good -->
+   <section class="someblock">
+     <ul class="someblock__elem" style="list-style-type: none">
+       <li class="someblock__elem2"> </li>
+     </ul>
+   </section>
+   <!-- Better, in this case -->
+   <section class="someblock">
+     <ul class="anotherblock" style="list-style-type: none">
+       <li class="anotherblock_elem"> </li>
+     </ul>
+   </section>
+   <p> It is also common for a developer to connect the block name & element name, when making elements, something like... </p>
+   <!-- Bad -->
+   <nav class="navblock">
+     <a class="navblockelem">
+       <p class="navblockelem__elem2"> </p> 
+     </a>
+   </nav>
+   <!-- Better -->
+   <nav class="navblock">
+     <a class="navblock__elem">  
+       <p class="navblock__elem2"> </p>
+     </a>
+   </nav>
+   <p> The first example makes no sense because elements, are part of blocks, blocks are standalone entitys & elements can't be part of other elements. </p>
+  </body>
+</html>
