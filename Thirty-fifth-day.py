@@ -1,9 +1,11 @@
-# python overview
+# Day Thirty Five
+
+# python Overview 
 # python is a high-level, interpreted, multi-paradigm programming language.
 # It was designed in the late eighties by Guido van Rossum.
 # It was built with readability in mind, making frequent use of the english language, over punctation. 
 
-# python syntax
+# python Syntax
 
 # indentifiers
 # indentifiers, are names that can be used to indentify functions, variables, objects etc
