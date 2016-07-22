@@ -2,7 +2,7 @@
 
 i plan to upload some code everyday for the next 100 days.
 
-These will be small programs sharing my understanding of new concepts i'm currently trying to learn, 
+These will be programs sharing my understanding of new concepts i'm currently trying to learn, 
 
 or concepts which i have some knowledge of, that i'm trying to reinforce.
 
