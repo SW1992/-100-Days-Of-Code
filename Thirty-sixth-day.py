@@ -8,7 +8,7 @@
 # the input() function
 # you can use the python input() function to prompt a user to enter some information
 # it will display a given string on the screen & wait to read the users response
-# the information entered by the user, will be outputted as a text string
+# the information entered by the user, will be read as a text string
 # this can be assigned to a variable & later referenced, like any other variable value
 user_name = input("Please enter your name: ")
 # stores user input as string
