@@ -1,6 +1,6 @@
 # Day Thirty Six
 
-# User Input 
+# Python User Input 
 
 # raw_input
 # the python raw_input function was deprecated in python 3.0, the input functions now takes it's place.
