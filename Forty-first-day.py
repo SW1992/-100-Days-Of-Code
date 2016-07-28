@@ -2,7 +2,7 @@
 
 # Python Dynamically Typed & Strongly Typed
 # Python is a dynamically typed & strongly typed programming langauge
-# I will cover each of these & look briefly at the contrast between them & Statically Typed & Weakly Typed 
+# I will cover each of these & look briefly at the contrast between them & statically typed & weakly typed 
 
 # Dynamically Typed
 # Because Python is dynamically typed, so you don't have to declare variable types before use
@@ -16,7 +16,7 @@ print(type(some_var))
 # <class 'int'>
 # the same some_var variable, has been re-assigned a value of a different type
 
-# This contrasts with Statically Typed languages, where the variable itself will be of a paticular type, this must be specified when the variable is declared 
+# This contrasts with statically typed languages, where the variable itself will be of a paticular type, this must be specified when the variable is declared 
 # type checking is also done at compile-time with statically typed languages, but done at run-time with dynamically typed langauges
  
 # Strongly Typed 
