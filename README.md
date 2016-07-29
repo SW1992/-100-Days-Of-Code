@@ -1,4 +1,4 @@
-# -100-Days-Of-Code
+# 100-Days-Of-Code
 
 i plan to upload some code everyday for the next 100 days.
 
