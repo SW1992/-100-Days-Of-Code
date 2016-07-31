@@ -38,7 +38,7 @@ print("Square Root:", math.sqrt(z))
 # the power method returns a first argument, raised to the power of a second argument
 # both methods return a number of the float data type, which is the reason for the added decimal point
 print("Squared:", math.pow(20,2))
-# 400.0, because 20 x 20 = 400 
+# prints 400.0, because 20 x 20 = 400 
  
 # random()
 # the random method of the random module, produces a random decimal number between 0 & 1.0
