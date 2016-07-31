@@ -9,7 +9,7 @@ x = 5
 print("Absolute Value:", abs(x))
 # Absolute Value: 5
 
-# Math module
+# math module
 # I will cover modules at a later date 
 # but the math module basically provides lot's of different functions for performing mathematical procedures, once imported
 # I will cover some of the most commonly used
