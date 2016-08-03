@@ -13,7 +13,7 @@ print("The first guy is:", person_name)
 # The first guy is: Joe Bloggs
 
 # or multiple list items, to multiple variables
-(another_name, another_birtdate, another_height) = ["John Doe", 1970, "5ft 9"]
+(another_name, another_birthdate, another_height) = ["John Doe", 1970, "5ft 9"]
 # multi assignment
 print("The second guy is:", another_name)
 # The second guy is: John Doe
