@@ -11,3 +11,5 @@ I will spend at least an hour a day on this.
 This challenge is inspired by Alexander Kallaway & his recent medium article.
 
 Check it out here  https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4#.g9351buhu
+
+Edit: Now I’m over the half way into #100DaysOfCode, I’ve decided I want to work on a couple of projects & consolidate some of the  knowledge I’ve gained, MTF.
