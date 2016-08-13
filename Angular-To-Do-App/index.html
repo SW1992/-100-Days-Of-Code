@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html ng-app="toDoApp"> 
-  <head> 
-  <meta charset="UTF-8">
-  <title>To Do App</title>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <head>  
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head> 
-  <body>
-    <!-- Day Fifty Six -->  
+  <body>   
+    <!-- Day Fifty Seven --> 
+    <!-- App header -->    
     <header class="header"> 
-      <h1 class="header_title">To Do App</h1> 
-    </header>  
-    <section class="body">
-      <div class="body_wrapper" ng-controller="toDoCtrl">
+      <h1 class="header__title">To Do App</h1> 
+    </header>   
+    <!-- App Body -->   
+    <section class="body"> 
+      <div class="body__wrapper" ng-controller="toDoCtrl">
         <form name="form" ng-submit="addItem()">
-           <input type="text" ng-model="newItem" required>   
-        </form>
+           <input type="text" name="newItem" ng-model="newItem" required>
+           <button ng-disabled="form.$invalid">Add Item</button>            
+        </form> 
+        <button ng-click="clearMarked()">Clear Marked</button>
+        <ol>  
+          <li ng-repeat="item in toDoArr">
+            {{toDoArr.title}}       
+          </li>                
+        </ol>
       </div>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
