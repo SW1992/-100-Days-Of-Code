@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <title>To Do App</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">    
   </head> 
   <body>   
-    <!-- Day Fifty Seven --> 
-    <!-- App header -->    
+    <!-- Day Fifty Eight --> 
+    <!-- App header -->     
     <header class="header"> 
       <h1 class="header__title">To Do App</h1> 
     </header>   
@@ -16,13 +17,14 @@
       <div class="body__wrapper" ng-controller="toDoCtrl">
         <form name="form" ng-submit="addItem()">
            <input type="text" name="newItem" ng-model="newItem" required>
-           <button ng-disabled="form.$invalid">Add Item</button>            
-        </form> 
-        <button ng-click="clearMarked()">Clear Marked</button>
+           <button class="btn" ng-disabled="form.$invalid">Add Item</button>            
+        </form>  
+        <button class="btn" ng-click="clearMarked()">Clear Marked</button>
         <ol>  
           <li ng-repeat="item in toDoArr">
-            {{toDoArr.title}}       
-          </li>                
+            <input type="checkbox" ng-model="item.completed">
+            <span ng-class="{'completed': item.completed}">{{item.title}}</span>
+          </li>                   
         </ol>
       </div>
     </section>
