@@ -1,4 +1,4 @@
-// Day Fifty Eight
+// Day Fifty Nine 
 var app = angular.module("toDoApp",[]);
 app.controller("toDoCtrl",function($scope) {
   $scope.toDoArr = [   
@@ -12,6 +12,11 @@ app.controller("toDoCtrl",function($scope) {
     $scope.newItem = "" 
     // reset input box to empty string 
   }    
-  $scope.clearMarked = function() {}
+  $scope.clearMarked = function() {
   // method to clear marked items when called   
+    $scope.toDoArr  = $scope.toDoArr.filter(function(item) {
+      return item.completed === false;
+      // filter out completed items 
+    })
+  }
 });    
