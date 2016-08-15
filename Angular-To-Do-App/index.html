@@ -7,16 +7,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">    
   </head> 
   <body>   
-    <!-- Day Fifty Eight --> 
+    <!-- Day Fifty Nine --> 
     <!-- App header -->     
     <header class="header"> 
-      <h1 class="header__title">To Do App</h1> 
+      <h1 class="header__title text-center">To Do App</h1>   
     </header>   
-    <!-- App Body -->   
-    <section class="body"> 
+    <!-- App Body -->    
+    <section class="body">  
       <div class="body__wrapper" ng-controller="toDoCtrl">
         <form name="form" ng-submit="addItem()">
-           <input type="text" name="newItem" ng-model="newItem" required>
+           <input class="body__input" type="text" name="newItem" ng-model="newItem" required>
            <button class="btn" ng-disabled="form.$invalid">Add Item</button>            
         </form>  
         <button class="btn" ng-click="clearMarked()">Clear Marked</button>
