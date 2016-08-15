@@ -1,11 +1,27 @@
 @baby-blue: #6599FF;
+@center-block: 0 auto;
+
 body {
   color: @baby-blue;
 }
-.completed {
+
+.completed { 
   text-decoration: line-through;
 } 
+
 .btn:hover, .btn:active {
-  color: @baby-blue; 
-}    
+  color: @baby-blue;  
+}
+
+.btn {
+  display: block;
+  width: 8em;
+  margin: @center-block;
+  margin-bottom: 1em; 
+}
+.body__input {
+  display: block; 
+  margin: @center-block;
+  margin-bottom: 1em;  
+}
  
