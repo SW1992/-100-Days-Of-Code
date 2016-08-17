@@ -1,4 +1,4 @@
-// Day Sixty
+// Day Sixty One 
 var app = angular.module("toDoApp",[]);
 app.controller("toDoCtrl",function($scope) {
   $scope.toDoArr = [   
@@ -10,7 +10,7 @@ app.controller("toDoCtrl",function($scope) {
     $scope.toDoArr.push({"title": $scope.newItem, "completed": false})
     // add new item to do list array  
     $scope.newItem = "" 
-    // reset input box to empty string 
+    // reset input box to empty string  
   }    
   $scope.clearMarked = function() {
   // method to clear marked items when called   
