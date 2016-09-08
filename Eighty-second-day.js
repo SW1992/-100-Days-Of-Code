@@ -1,4 +1,4 @@
-// Day Eighty One
+// Day Eighty Two
 // jQuery fundamentals part 6
 // Getting back to your original selection
 // after using a traversal method to get access to children or descendants of an original selection
