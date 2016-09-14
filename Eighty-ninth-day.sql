@@ -40,4 +40,4 @@ SELECT * FROM celebs;
 •	SQL allows you to manage and manipulate data stored in relational databases
 •	Relational databases arrange information into one or more tables
 •	A table is a collection of data, organized into in row & column form
-•	A statement is a series of characters the database recognizes as a valid commands
+•	A statement is a series of characters the database recognizes as a valid commands */
