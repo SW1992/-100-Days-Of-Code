@@ -1,7 +1,7 @@
 /* Day Ninety Nine */ 
 /* Learn SQL: UNIT 4 Multiple Tables: Part three */ 
 
-/* Inner Join: 
+/* Inner Join Notes: 
 •	SQL joins combine rows from more than one table
 •	Inner joins combine rows if a condition is true
 •	SELECT * selects all columns
@@ -14,7 +14,7 @@
 /* Code: */
 SELECT * FROM albums LEFT JOIN artists ON albums.artist_id = artists.id;
 
-/* Left Outer Join: 
+/* Left Outer Join Notes: 
 •	Outer joins combine rows from more than one table
 •	Unlike inner joins they don’t require a join condition to be met
 •	Every row from the left table, albums, is returned in the results
